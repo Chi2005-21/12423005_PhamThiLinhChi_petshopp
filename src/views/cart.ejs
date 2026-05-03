@@ -1,0 +1,7 @@
+
+<h2>Cart</h2>
+<% cart.forEach(i=>{ %>
+<div><%= i.name %> x <%= i.quantity %></div>
+<% }) %>
+<p>Total: <%= total %></p>
+<a href="/orders/checkout">Checkout</a>
